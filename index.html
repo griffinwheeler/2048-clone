@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Clone</title>
+    <link href="./2048-logo.png" rel ="icon" type="image">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./controller.js" defer type="module"></script>
+    <script src="./game.js" defer type="module"></script>
+</head>
+
+    <body>
+        <div class="game-container">
+            <div class="heading">
+            <div class="title"> 2048 </div>
+            <div class="space1"></div>
+            <div class="score-container">
+                <p>SCORE</p>
+                <div class="alert-container"></div>
+                <div class="value">0</div>
+                
+            </div>
+            <div class="space2"></div>
+            <div class="score-container">
+                <p>BEST</p>
+                <div class="best">0</div>
+                
+            </div>
+            </div>
+            <div class="subheading">
+                <p class="description">
+                    Join the tiles, get to <strong>2048!</strong>
+                </p>
+                <div class="space"></div>
+                <button class="reset-btn">New Game</button>
+            </div>
+            <div class="game-board">
+            </div>
+            <div class="win-lose-container">
+                <p class="message"></p>
+                <div class="btn-container"></div>
+            </div>
+        </div>
+    </body>
+</html>
